@@ -1,0 +1,11 @@
+[package]
+name = "winject"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "2.0.11"
+winapi = { version = "0.3.9", features = ["impl-default", "ntdef", "tlhelp32"] }
+
+[features]
+async = []
